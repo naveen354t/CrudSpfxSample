@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "crud-spfx-sample-client-side-solution",
+    "id": "99b0af8a-f074-456a-9473-361cec9d85d7",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.16.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "crud-spfx-sample description"
+      },
+      "longDescription": {
+        "default": "crud-spfx-sample description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "crud-spfx-sample Feature",
+        "description": "The feature that activates elements of the crud-spfx-sample solution.",
+        "id": "b8bcd639-2451-4585-83da-04afc65a15cf",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/crud-spfx-sample.sppkg"
+  }
+}

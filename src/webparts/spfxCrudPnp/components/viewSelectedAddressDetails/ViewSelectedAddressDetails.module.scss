@@ -1,0 +1,86 @@
+@import "~@fluentui/react/dist/sass/References.scss";
+.userDetailsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 52px;
+  width: 650px;
+  padding: 0px;
+  word-wrap: break-word;
+}
+.nameContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 18px;
+}
+.editContainer {
+  width: 45px;
+  height: 5px;
+  padding-left: 62px;
+  margin-right: 12px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin: 12px;
+}
+.editIcon {
+  width: 16px;
+}
+
+.deleteContainer {
+  width: 65px;
+  height: 5px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin: 12px;
+}
+.deleteIcon {
+  width: 16px;
+}
+.mobile {
+  font-size: 16px;
+  display: inline;
+  font-weight: 400;
+  font-family: "Ebrima";
+  word-wrap: break-word;
+}
+
+.mobileContainer {
+  margin-top: 14px;
+}
+span {
+  padding: 0px;
+  margin-left: 6px;
+  font-size: 14px;
+}
+.addressContainer {
+  display: flex;
+  font-size: 17px;
+  margin: 0;
+  padding: 0;
+  word-wrap: break-word;
+}
+.contactName {
+  width: 220px;
+  font-size: 28px;
+  font-family: sans-serif;
+  font-weight: 100;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.active {
+  background-color: #cee7f2;
+}
+pre {
+  font-weight: 400 !important;
+  font-style: normal;
+  font-family: "Ebrima";
+  font-size: 14px !important;
+}

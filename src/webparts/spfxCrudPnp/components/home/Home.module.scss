@@ -1,0 +1,60 @@
+@import "~@fluentui/react/dist/sass/References.scss";
+.mainHeading {
+  font-family: "Century Gothic";
+  color: #ffffff;
+  font-weight: 100;
+  font-size: 48px;
+  background-color: #3399cc;
+  padding: 16px 0px;
+}
+.navigationBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333333;
+  height: 28px;
+}
+.blogIcon {
+  width: 22px;
+  height: 22px;
+  margin-right: 22px;
+}
+
+.navcontainer {
+  margin-left: 12px;
+}
+.addBtn {
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Ebrima";
+  height: 28px !important;
+  border-left: 2px solid transparent;
+  width: 60px;
+  background-color: transparent;
+  color: #fff;
+  font-family: "Ebrima";
+  border-color: transparent;
+}
+
+.buttonNav {
+  background-color: transparent;
+  color: #fff;
+  font-family: "Ebrima";
+  border-color: transparent;
+}
+.addBtn:hover {
+  height: 28px;
+  background-color: #f89502;
+  border-left: 2px solid white;
+  color: black;
+  cursor: pointer;
+  font-weight: bolder;
+  font-family: "Ebrima";
+}
+
+.detailsInputContainer {
+  display: grid;
+  gap: 62px;
+  grid-template-columns: 380px 1fr;
+}

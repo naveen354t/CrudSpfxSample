@@ -1,0 +1,55 @@
+@import "~@fluentui/react/dist/sass/References.scss";
+.detailsContainer {
+  list-style-type: none;
+  width: 380px;
+  margin-left: 12px;
+  word-wrap: break-word;
+  padding: 0px;
+}
+.contactsHeading {
+  font-family: "Ebrima";
+  margin: 18px 12px;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.detailsItem {
+  padding: 6px 8px;
+  border: 1px solid #d0d0d0;
+}
+.detailsItem:hover {
+  background-color: #cee7f2;
+}
+
+.nameDetails {
+  font-weight: lighter;
+  font-size: 24px;
+  margin: 0;
+  font-family: "Ebrima";
+  color: rgb(83, 83, 83) !important;
+}
+
+span {
+  letter-spacing: 0.3px;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 12px;
+}
+
+.active {
+  background-color: #cee7f2;
+}
+.email {
+  padding: 0px;
+  margin: 0px;
+  color: rgb(83, 83, 83) !important;
+}
+.emailNameContainer {
+  margin: 0px;
+  padding: 0px;
+}
+.detailsView {
+  text-decoration: none;
+  color: none;
+}
